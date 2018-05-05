@@ -28,6 +28,7 @@ public class Provider {
         context.start();
 
         System.in.read(); // press any key to exit
+        context.close();
     }
 
 }

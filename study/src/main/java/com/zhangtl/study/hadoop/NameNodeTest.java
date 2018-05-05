@@ -12,7 +12,7 @@ public class NameNodeTest {
 		String home = System.getenv("HADOOP_HOME");
 		//System.out.println(home);
 		//System.out.println(NativeCodeLoader.isNativeCodeLoaded());
-		String[] arg = {"-format"};
+		//String[] arg = {"-format"};
 		NameNode.main(args);
 	}
 
